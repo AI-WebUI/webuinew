@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数量操作器</title>
+    <!-- 文档框架样式 -->
+    <link rel="stylesheet" type="text/css" href="../../css/base.css"/>
+    <link rel="stylesheet" href="../../css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="../../../../webui/1.0.0/pc/css/webui.css">
+    <link rel="stylesheet" href="../../css/demoApi.css"/>
+    <script type="text/javascript" src="../../../lib/jquery/1.11.3/jquery.js"></script>
+    <script type="text/javascript" src="../../js/rainbow.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            font-size: 20px;
+        }
+
+        h2 {
+            font-size: 18px;
+        }
+
+        hr {
+            display: block;
+            border: 1px solid #ededed;
+            width: 80%;
+            position: absolute;
+            top: 22px;
+            left: 110px;
+        }
+
+        .pp-ps {
+            display: block;
+            color: #8E8E8E;
+            position: absolute;
+            top: -5px;
+            left: 20px;
+        }
+
+        .ui-operate-28 {
+            width: 106px !important;
+        }
+
+        .ui-operate-22 {
+            width: 84px !important;
+        }
+        .tubiao {
+            position: absolute;
+            top: 20px;
+            left: 18px;
+            width: 10px;
+            height: 10px;
+            border: 2px solid #333;
+            -webkit-transform: rotate(45deg);
+        }
+    </style>
+</head>
+
+<body>
+<div class="cont">
+    <h1 class="main_title">数量操作器</h1>
+
+    <h2 class="view-desc">最大值最小值可配置</h2>
+
+    <div class="demo_content">
+        <!-- 组件示例区域 -->
+        <div class="aries_demo bs-example">
+            <div class="tubiao"></div>
+            <p class="pp-ps">样式+尺寸</p>
+            <hr/>
+            <div id="btn_groupmax"></div>
+            <br/>
+
+            <div id="btn_groupsmall"></div>
+            <script>
+                $(function () {
+                    $("#btn_groupmax").operateBtn({
+                        max: 15,
+                        min: 1,
+                        type: "big"
+                    });
+                    $("#btn_groupsmall").operateBtn({
+                        max: 10,
+                        min: 1,
+                        type: "small"
+                    });
+                });
+            </script>
+        </div>
+        <!-- 组件示例代码区域 -->
+        <div class="highlight"></div>
+    </div>
+</div>
+
+<div class="cont">
+    <h1 class="main_title">数量操作按钮</h1>
+
+    <table class="doc-table">
+        <tbody>
+        <tr>
+            <th>参数名</th>
+            <th>类型</th>
+            <th>默认值</th>
+        </tr>
+        <tr>
+            <td>max</td>
+
+            <td>int</td>
+            <td>1000</td>
+        </tr>
+        <tr>
+            <td>type</td>
+
+            <td>String(big/small)</td>
+            <td>big</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<script type="text/javascript" src="../../../../webui/1.0.0/pc/js/webui.js"></script>
+</body>
+
+</html>
