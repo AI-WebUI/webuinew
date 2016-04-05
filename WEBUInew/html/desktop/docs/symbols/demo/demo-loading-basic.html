@@ -15,6 +15,32 @@
     <script type="text/javascript" src="../../../js/jquery.blockUI.js"></script>
 
     <script type="text/javascript" src="../../js/rainbow.min.js"></script>
+    <style>
+         hr {
+            width:85%;
+            position:absolute;
+            top: 23px;
+            left: 70px;
+            border:1px solid #ededed;
+
+        }
+
+        .pp-ps {
+            color: #8E8E8E;
+            position:absolute;
+            top:-5px;
+            left:20px;
+        }
+        .tubiao {
+            position: absolute;
+            top: 18px;
+            left: 25px;
+            width: 10px;
+            height: 10px;
+            border: 2px solid #333;
+            -webkit-transform: rotate(45deg);
+        }
+    </style>
 </head>
 
 <body>
@@ -26,6 +52,9 @@
     <div class="demo_content">
         <!-- 组件示例区域 -->
         <div class="aries_demo bs-example">
+            <div class="tubiao"></div>
+            <p class="pp-ps">样式</p>
+            <hr/>
             <div id="p" class="webui-panel" title="内容区域Loading"
                  data-options="
         width:700,
@@ -47,6 +76,9 @@
     <div class="demo_content">
         <!-- 组件示例区域 -->
         <div class="aries_demo bs-example">
+            <div class="tubiao"></div>
+            <p class="pp-ps">样式</p>
+            <hr/>
             <table id="dg1" class="webui-datagrid" style="width:700px;height:250px"
                    data-options="singleSelect:true,collapsible:true,url:'https://github2.com/douglascrockford/JSON-js/blob/master/json.js',method:'get',loadMsg:'数据加载中,请稍候...'">
                 <thead>
@@ -70,6 +102,9 @@
     <div class="demo_content">
         <!-- 组件示例区域 -->
         <div class="aries_demo bs-example">
+            <div class="tubiao"></div>
+            <p class="pp-ps">样式</p>
+            <hr/>
             <div class="panel-loading">数据加载中...</div>
         </div>
         <!-- 组件示例代码区域 -->
@@ -80,6 +115,9 @@
     <div class="demo_content">
         <!-- 组件示例区域 -->
         <div class="aries_demo bs-example">
+            <div class="tubiao"></div>
+            <p class="pp-ps">样式</p>
+            <hr/>
             <div class="panel-loading-big">亲，正在加载中...</div>
         </div>
         <!-- 组件示例代码区域 -->
@@ -90,6 +128,9 @@
     <div class="demo_content">
         <!-- 组件示例区域 -->
         <div class="aries_demo bs-example">
+            <div class="tubiao"></div>
+            <p class="pp-ps">样式</p>
+            <hr/>
             <div class="panel-loading-big">亲，正在提交中，预计<em>10</em>秒后跳转...</div>
             <script type="text/javascript">
                 $(function () {
