@@ -121,7 +121,9 @@ body {
 .nav-third-level li {
     border-bottom: none !important;
 }
-
+.nav-second-level>li{
+    background:#333;
+}
     .nav-second-level li a {
         padding-left: 37px;
     }
