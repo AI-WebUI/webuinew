@@ -120,6 +120,7 @@ body {
 .nav-second-level li,
 .nav-third-level li {
     border-bottom: none !important;
+    background:#333 !important;
 }
 
     .nav-second-level li a {
