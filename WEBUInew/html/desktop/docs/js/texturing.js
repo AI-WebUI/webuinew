@@ -4,6 +4,5 @@
 $(function () {
     var html=$('html').html();
     $("pre").text(html).addClass("prettyprint linenums");
-//            $("#js").text($('script').text()).addClass("prettyprint linenums");
     prettyPrint();
 })
