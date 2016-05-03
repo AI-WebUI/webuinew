@@ -6,6 +6,7 @@ html {
 
 body {
   margin: 0;
+    padding:0;
 }
 
 article,
@@ -637,23 +638,7 @@ input{
 		width: 11px;
 		height: 11px;
 	}
-	.ui-btn-reduce{
-		background: url(../img/reduce2.png) no-repeat center;
-		background-size: 50%;
-	}
-	.ui-btn-reduce.disable{
-		background: url(../img/reduce1.png) no-repeat center;
-		background-size: 50%;
-	}
-	.ui-btn-add{
-		background: url(../img/add.png) no-repeat center;
-		background-size: 50%;
-	}
-	.ui-btn-add.disable{
-		background: url(../img/add2.png) no-repeat center;
-		background-size: 50%;
-	}
-
+	
 .dropload-up,.dropload-down{
     position: relative;
     height: 0;
@@ -1986,7 +1971,7 @@ input[type=checkbox]:disabled + label:before {
 }*/
 .ui-flex {
 	display: -webkit-box;
-	display: -ms-flex;
+	display: flex;
 	display: -webkit-flex;
 	display: flex;
 }
@@ -2102,7 +2087,6 @@ input[type=checkbox]:disabled + label:before {
 	background-color: #f7245b;
 }
 .ui-tips-confirm-box > h1,
-,
 .ui-tips-alert-box > h1,
 .ui-tips-confirm-box-no-icon > h1,
 .ui-tips-alert-box-no-icon > h1,
@@ -2911,6 +2895,9 @@ input[type=radio]:checked + label.mc-check-radio:before{
 	display: block;
 	margin-left: -15px;
 	text-indent: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 .ui-new-height-list .ui-new-list-item .list-content{
 	display: inline-block;
@@ -2921,10 +2908,14 @@ input[type=radio]:checked + label.mc-check-radio:before{
 	margin: 0;
 	padding: 0;
 }
+/*添加主题内容溢出处理*/
 .ui-new-height-list .ui-new-list-item .list-content .title{
 	font-size: 16px;
 	color: #333;
 	line-height: 44px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 .ui-new-height-list .ui-new-list-item .list-content .con{
 	font-size: 12px;
@@ -2935,7 +2926,6 @@ input[type=radio]:checked + label.mc-check-radio:before{
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
-	
 }
 .ui-new-list .ui-new-list-item.active,
 .ui-new-list .ui-new-list-item:active,
@@ -2972,28 +2962,132 @@ input[type=radio]:checked + label.mc-check-radio:before{
 	height: 0
 }
 .ui-new-list .ui-new-item-icon:after,
-.ui-new-height-list .ui-new-item-icon:after {
-	display: inline-block;
-	font-size: inherit;
-	text-rendering: auto;
-	right: 43px;
-	top: 50%;
-	margin-top: -6.5px;
-	width: 8px;
-	height: 13px;
-	background: url(../img/icon-right.png);
-	background-size: 100% 100%;
-	content: "";
-	position: absolute;
-	color: #787878;
+ .ui-new-height-list .ui-new-item-icon:after {
+     display: inline-block;
+     font-size: inherit;
+     text-rendering: auto;
+     right: 43px;
+     top: 50%;
+     margin-top: -6.5px;
+     width: 8px;
+     height: 13px;
+     background: url(../img/icon-right.png);
+     background-size: 100% 100%;
+     content: "";
+     position: absolute;
+     color: #787878;
+ }
+/*改变右箭头*/
+/*.ui-new-list .ui-new-item-icon:after,*/
+/*.ui-new-height-list .ui-new-item-icon:after{*/
+    /*content:'';*/
+    /*display: inline-block;*/
+    /*font-size:inherit;*/
+    /*position: absolute;*/
+    /*top:50%;*/
+    /*right:43px;*/
+    /*margin-top: -6.5px;*/
+    /*border:2px solid transparent;*/
+    /*border-bottom: 1px solid #787878;*/
+    /*border-right:1px solid #787878;*/
+    /*width: 8px;*/
+    /*height:8px;*/
+    /*transform: rotate(45deg);*/
+    /*-webkit-transform: rotate(-45deg);*/
+/*}*/
+ /*.ui-new-list-item> label[for=switch-group]{*/
+
+ /*}*/
+/*按钮的位置放置*/
+.ui-new-list-item> label[for=switch-group],
+.ui-new-list-item> a[type=button],
+.ui-new-list-item>a>label[for=switch-group],
+.ui-new-list-item>a>a[type=button] {
+    position: absolute;
+    top: 50%;
+    right: 45px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
-/*.ui-new-list-item.disabled,
-.ui-new-list-item.disabled:focus,
-.ui-new-list-item.disabled:hover {
-	color: #777;
-	background-color: #eee;
-	cursor: default;
-}*/
+.ui-new-list-item> a[type=button],
+.ui-new-list-item>a>a[type=button],
+.ui-new-list-item>.ui-block-btn,
+.ui-new-list-item>a>.ui-block-btn{
+    display: block;
+    margin: auto;
+    width: 30%;
+    height: 38px;
+    line-height: 38px;
+    color: #fff;
+    background-color: #44abe5;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+/*输入框文字居左*/
+.ui-new-list-item .ui-input-content-name{
+    text-align: left;
+}
+.ui-new-list-item .ui-select-radio-blue-cycle+label, .ui-new-list-item .ui-select-checkbox-blue-cycle + label{
+    margin-bottom: 0px;
+    transform: translateY(16%);
+}
+.ui-new-list-item>div{
+    height:45px;
+    line-height:45px;
+}
+.ui-new-list-item>.ui-search-div{
+    margin:0;
+}
+.ui-new-list-item .ui-search{
+    height:38px;
+}
+.ui-new-list-item .ui-search-icon{
+    margin-top:13px;
+}
+.ui-new-mtext .ui-new-list-item{
+    line-height:25px;
+}
+.ui-new-mtext .ui-new-list-item p,.ui-new-mtext .ui-new-list-item h4{
+    margin:0;
+}
+
+.ui-new-list .ui-new-list-item .list-content,.ui-new-list .ui-new-list-item .list-content span,.ui-new-list .ui-new-list-item .list-content p{
+    display: inline-block;
+    text-indent: 0;
+    width: 80%;
+    height:44px;
+    line-height: 44px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.ui-new-image-text .ui-new-list-item .list-content{
+    width: 60%;
+    padding-top: 15px;
+    white-space: initial;
+}
+
+.ui-new-image-text .ui-new-list-item{
+    line-height:18px;
+}
+.ui-new-image-text .ui-nowrap{
+    padding-top: 25px!important;
+    white-space: nowrap!important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.ui-new-mtext .ui-new-list-item a{
+    white-space:inherit!important;
+}
+    /*.ui-new-list-item.disabled,
+    .ui-new-list-item.disabled:focus,
+    .ui-new-list-item.disabled:hover {
+        color: #777;
+        background-color: #eee;
+        cursor: default;
+    }*/
 /**
 * 选择列表插件
 * varstion 2.0.0
