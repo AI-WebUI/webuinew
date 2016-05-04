@@ -28,7 +28,7 @@
         }
     </style>
 </head>
-<body onload="prettyPrint()">
+<body>
 
 <div class="div-a" id="div_a">
     <a href="../../desktop/docs/webextends/Pc_App.html"><img src="img/webui1.png" class="img-logo"
@@ -1698,28 +1698,28 @@
 </body>
 <!--<script src="js/tool.js"></script>-->
 <!--<script src="js/demopart.js"></script>-->
-<script type="text/javascript" src="js/extends.js"></script>
+<!--<script type="text/javascript" src="js/extends.js"></script>-->
 
 <!--<script src="js/run_prettify.js"></script>-->
 <script src="js/prettify.js" type="text/javascript"/>
 <script src="js/highlight.js"></script>
 <link rel="stylesheet" href="css/prettify.css"/>
 <script>
-    //up( $("#div_code").text($(".grid").html()));
     $(function () {
         $(".lis").bind("click", function () {
             $(this).addClass("ext").siblings().removeClass("ext");
             $("#ifr_m").attr("src", $(this).attr("name"));
-            //  up( $("#div_code").text($(".grid").html()));
-            //var t= $(this).attr("name").replace(".html","").replace("../","");
             var t = $(this).attr("name").replace(/.*\/(.*).html$/, "$1");
-
             $("pre").text($("." + t).html());
-            //prettyPrint();
-
-        });
-        // up($("#div_code").text($("#div_code").html()));
-        $(".lis:first-child").click();
+            var i=0;
+            var t=setInterval(function(){if(!$("pre").text()=="") {
+                prettyPrint();
+                i++;
+                console.log(i);
+            } if(i>=1){clearInterval(t)}},200);
+            $("#ifr_m").css("background","none");
+       });
+//        $(".lis:first-child").click();
     })
 </script>
 

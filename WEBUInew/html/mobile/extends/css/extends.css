@@ -59,9 +59,10 @@ body {
 
 .iframe-mobile {
 	width: 285px;
-	height: 500px;
+	height: 496px;
 	background: #fff;
 	margin: 70px 0 0 16px;
+	background:url(../img/kaiji.jpg) no-repeat top left;
 	/*border: 1px #333 solid;*/
 	
 }
