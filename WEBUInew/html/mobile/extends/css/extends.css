@@ -58,12 +58,12 @@ body {
 }
 
 .iframe-mobile {
-	width: 285px;
-	height: 496px;
+	width: 290px;
+	height:500px;
 	background: #fff;
 	margin: 70px 0 0 16px;
 	background:url(../img/kaiji.jpg) no-repeat top left;
-	margin: 66px 0 10px 16px;
+	margin: 66px 0 10px 15px;
 	/*border: 1px #333 solid;*/
 }
 
