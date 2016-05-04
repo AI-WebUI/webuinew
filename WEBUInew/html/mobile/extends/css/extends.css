@@ -51,7 +51,7 @@ body {
 	background-size: 320px 640px;
 	width: 320px;
 	height: 640px;
-	margin: 0.3% 0 30px 76%;
+	margin: 0.3% 0 30px 72%;
 	overflow-y: hidden;
 	z-index: 55;
 	
@@ -61,7 +61,7 @@ body {
 	width: 285px;
 	height: 500px;
 	background: #fff;
-	margin: 70px 0 0 16px;
+	margin: 66px 0 10px 16px;
 	/*border: 1px #333 solid;*/
 	
 }
