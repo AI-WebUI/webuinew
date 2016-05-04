@@ -3048,10 +3048,13 @@ input[type=radio]:checked + label.mc-check-radio:before{
 .ui-new-mtext .ui-new-list-item{
     line-height:25px;
 }
-.ui-new-mtext .ui-new-list-item p,.ui-new-mtext .ui-new-list-item h4{
-    margin:0;
+.ui-new-mtext .ui-new-list-item p,.ui-new-mtext .ui-new-list-item h4,.ui-new-mtext .ui-new-list-item h3,.ui-new-mtext .ui-new-list-item h5,.ui-new-mtext .ui-new-list-item h6,.ui-new-mtext .ui-new-list-item h2{
+    margin: 0 auto;
+    white-space: inherit;
+    width: 90%;
+    overflow: hidden;
+    text-indent: 0;
 }
-
 .ui-new-list .ui-new-list-item .list-content,.ui-new-list .ui-new-list-item .list-content span,.ui-new-list .ui-new-list-item .list-content p{
     display: inline-block;
     text-indent: 0;
