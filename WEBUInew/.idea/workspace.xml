@@ -31,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="extends.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="extends.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/mobile/extends/extends.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-74.28571">
-              <caret line="1714" column="6" selection-start-line="1714" selection-start-column="6" selection-end-line="1714" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.3609672">
+              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -53,10 +53,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="extends.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="extends.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/mobile/extends/css/extends.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45532647">
+            <state vertical-scroll-proportion="-10.6">
               <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
               <folding />
             </state>
@@ -192,8 +192,8 @@
         <option value="$PROJECT_DIR$/html/desktop/docs/symbols/demo/demo-keytip.html" />
         <option value="$PROJECT_DIR$/html/desktop/docs/webextends/index_ver2.html" />
         <option value="$PROJECT_DIR$/html/mobile/extends/js/extends.js" />
-        <option value="$PROJECT_DIR$/html/mobile/extends/extends.html" />
         <option value="$PROJECT_DIR$/html/mobile/extends/css/extends.css" />
+        <option value="$PROJECT_DIR$/html/mobile/extends/extends.html" />
       </list>
     </option>
   </component>
@@ -809,18 +809,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/mobile/extends/extends.html">
+    <entry file="file://$PROJECT_DIR$/html/mobile/extends/css/extends.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-74.28571">
-          <caret line="1714" column="6" selection-start-line="1714" selection-start-column="6" selection-end-line="1714" selection-end-column="6" />
+        <state vertical-scroll-proportion="-10.6">
+          <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/mobile/extends/css/extends.css">
+    <entry file="file://$PROJECT_DIR$/html/mobile/extends/extends.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45532647">
-          <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.3609672">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
           <folding />
         </state>
       </provider>
