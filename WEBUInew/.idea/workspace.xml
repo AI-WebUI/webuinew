@@ -31,11 +31,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="extends.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="extends.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/mobile/extends/extends.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3609672">
+            <state vertical-scroll-proportion="-7.464286">
               <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app_btn.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/mobile/app_btn.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.7789292">
+              <caret line="67" column="15" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="select.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/mobile/select.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="2.7142856">
+              <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -103,31 +123,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo-shade.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/desktop/docs/symbols/demo/demo-shade.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="112" column="27" selection-start-line="112" selection-start-column="27" selection-end-line="112" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo-hr.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/desktop/docs/symbols/demo/demo-hr.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="82" column="7" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
-              <folding>
-                <marker date="1462329779723" expanded="true" signature="1732:1830" placeholder="..." />
-                <marker date="1462329779723" expanded="true" signature="1732:1905" placeholder="..." />
-                <marker date="1462329779723" expanded="true" signature="1732:1912" placeholder="..." />
-                <marker date="1462329779723" expanded="true" signature="1732:1920" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -178,7 +173,6 @@
         <option value="$PROJECT_DIR$/html/desktop/docs/symbols/desc/logowebUI-8.html" />
         <option value="$PROJECT_DIR$/html/mobile/select.html" />
         <option value="$PROJECT_DIR$/html/desktop/docs/symbols/demo/demo-step.html" />
-        <option value="$PROJECT_DIR$/html/mobile/app_btn.html" />
         <option value="$PROJECT_DIR$/html/desktop/docs/symbols/demo/demo-datebox.html" />
         <option value="$PROJECT_DIR$/html/desktop/docs/symbols/demo/demo-accordion.html" />
         <option value="$PROJECT_DIR$/html/desktop/docs/symbols/demo/demo-hr.html" />
@@ -194,6 +188,7 @@
         <option value="$PROJECT_DIR$/html/mobile/extends/js/extends.js" />
         <option value="$PROJECT_DIR$/html/mobile/extends/css/extends.css" />
         <option value="$PROJECT_DIR$/html/mobile/extends/extends.html" />
+        <option value="$PROJECT_DIR$/html/mobile/app_btn.html" />
       </list>
     </option>
   </component>
@@ -619,13 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/mobile/select.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/desktop/docs/symbols/desc/logowebUI-8.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.507772">
@@ -672,13 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.0500864">
           <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/mobile/app_btn.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39378238">
-          <caret line="183" column="0" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -743,10 +724,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="82" column="7" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
           <folding>
-            <marker date="1462329779723" expanded="true" signature="1732:1830" placeholder="..." />
-            <marker date="1462329779723" expanded="true" signature="1732:1905" placeholder="..." />
-            <marker date="1462329779723" expanded="true" signature="1732:1912" placeholder="..." />
-            <marker date="1462329779723" expanded="true" signature="1732:1920" placeholder="..." />
+            <marker date="1462329779723" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1462329779723" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1462329779723" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1462329779723" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -819,8 +800,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/mobile/extends/extends.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3609672">
+        <state vertical-scroll-proportion="-7.464286">
           <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/mobile/select.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.7142856">
+          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/mobile/app_btn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.7789292">
+          <caret line="67" column="15" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
           <folding />
         </state>
       </provider>
