@@ -7,9 +7,10 @@
     <!-- 文档框架样式 -->
     <link rel="stylesheet" type="text/css" href="../../css/base.css"/>
     <link rel="stylesheet" href="../../css/font-awesome.css">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="../../../../webui/1.0.0/pc/css/webui.css">
     <script type="text/javascript" src="../../../lib/jquery/1.11.3/jquery.js"></script>
-    <script type="text/javascript" src="../../js/rainbow.min.js"></script>
+    <!--<script type="text/javascript" src="../../js/rainbow.min.js"></script>-->
 
     <style>
         h1 {
@@ -35,49 +36,45 @@
             height: 20px;
             /*background: #FAFAFA;*/
         }
-        .pp-ps {
-            display: block;
-            color: #8E8E8E;
-            position: absolute;
-            top: -5px;
-            left: 40px;
+
+        .main_title {
+            width: 500px;
+            margin: 0 auto;
+            font-size: 30px;
         }
-        .tubiao {
-            position: absolute;
-            top: 20px;
-            left: 18px;
-            width: 10px;
-            height: 10px;
-            border: 2px solid #333;
-            -webkit-transform: rotate(45deg);
-        }
+
     </style>
 </head>
 
 <body>
-<div class="cont">
-    <h1 class="main_title">分割线</h1>
-
-    <h2>分割线使用案例</h2>
-
-    <div class="demo_content">
-
-        <!-- 组件示例区域 -->
-
-        <div class="aries_demo bs-example">
-            <div class="tubiao"></div>
-            <p class="pp-ps">样式</p>
-            <!--<p class="pp-ps">样式</p>-->
-            <div class="demo-test-div">
-                <hr/>
+<h1 class="main_title">WEBUI分割线</h1>
+<ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#result" aria-controls="result" role="tab"
+                                              data-toggle="tab">样式和参数</a></li>
+    <li role="presentation"><a href="#Html" aria-controls="Html" role="tab" data-toggle="tab">代码</a></li>
+</ul>
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="result">
+        <div class="cont">
+            <h2>WEBUI分割线样式</h2>
+            <div class="aries_demo bs-example code">
+                <div class="demo-test-div">
+                    <hr/>
+                </div>
             </div>
-
-
         </div>
-        <!-- 组件示例代码区域 -->
-        <div class="highlight"></div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="Html">
+      <pre class="prettyprint">
+      </pre>
     </div>
 </div>
 </body>
-
+<script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../../../webui/1.0.0/pc/js/webui.js"></script>
+<script>
+    var html = $('.code').html();
+    $(".prettyprint").text(html).addClass("prettyprint linenums");
+    prettyPrint();
+</script>
 </html>
